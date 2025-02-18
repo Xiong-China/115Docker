@@ -14,7 +14,7 @@ docker run --name=115 \
 --env DISPLAY_HEIGHT=1080 \
 --rm --network=host -d \
 --env TZ=Asia/Shanghai \
-docker.io/xiuxiu10201/115:latest
+registry.gitlab.com/xiong-china/115docker
 ```
 
 ## Web
