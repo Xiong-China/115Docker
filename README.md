@@ -3,14 +3,12 @@
 ![previews](https://github.com/dream10201/115Docker/blob/master/image.png)
 ## 拉取镜像
 ```bash
-docker pull docker.io/xiuxiu10201/115:latest
-// or
-docker pull ghcr.io/dream10201/115docker:latest
+docker pull registry.gitlab.com/xiong-china/115docker
 ```
 ## 运行命令
 ```shell
 docker run --name=115 \
---user 0:0
+--user 0:0 \
 --env PASSWORD=123456 \
 --env DISPLAY_WIDTH=1920 \
 --env DISPLAY_HEIGHT=1080 \
